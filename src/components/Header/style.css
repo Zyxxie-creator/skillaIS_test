@@ -1,0 +1,228 @@
+.header,
+.header * {
+  box-sizing: border-box;
+}
+.header {
+  background: #ffffff;
+  padding: 8px 115px 8px 115px;
+  margin-left: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  box-shadow: var(---box-shadow, 0px 4px 5px 0px rgba(233, 237, 243, 1));
+}
+.header___13 {
+  color: var(--textheader, #899cb1);
+  text-align: left;
+  font: 400 15px/148% "SF Pro Display", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.header__ {
+  display: flex;
+  flex-direction: row;
+  gap: 56px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.header__2 {
+  flex-shrink: 0;
+  width: 162px;
+  height: 34px;
+  position: static;
+}
+.header___20-30 {
+  text-align: left;
+  font: 400 14px/148% "SF Pro Display", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: calc(50% - 30px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.header-20-30-span {
+  color: var(--text, #122945);
+  font: 400 14px/148% "SF Pro Display", sans-serif;
+}
+.header-20-30-span2 {
+  color: var(--text-green, #00a775);
+  font: 400 14px/148% "SF Pro Display", sans-serif;
+}
+.header__bar {
+  background: #dee6f5;
+  border-radius: 12px;
+  width: 156px;
+  height: 6px;
+  position: absolute;
+  left: 0px;
+  top: 28px;
+}
+.header__bar2 {
+  background: var(--ui-green, #28a879);
+  border-radius: 12px 0px 0px 12px;
+  width: 68px;
+  height: 6px;
+  position: absolute;
+  left: 0px;
+  top: 28px;
+}
+.header__3 {
+  flex-shrink: 0;
+  width: 164px;
+  height: 34px;
+  position: static;
+}
+.header___40 {
+  text-align: left;
+  font: 400 14px/148% "SF Pro Display", sans-serif;
+  position: absolute;
+  left: 218px;
+  top: calc(50% - 30px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.header-40-span {
+  color: var(--text, #122945);
+  font: 400 14px/148% "SF Pro Display", sans-serif;
+}
+.header-40-span2 {
+  color: #ffb800;
+  font: 400 14px/148% "SF Pro Display", sans-serif;
+}
+.header__bar3 {
+  background: #dee6f5;
+  border-radius: 12px;
+  width: 156px;
+  height: 6px;
+  position: absolute;
+  left: 218px;
+  top: 28px;
+}
+.header__bar4 {
+  background: var(--ui-yellow, #ffd500);
+  border-radius: 12px 0px 0px 12px;
+  width: 67px;
+  height: 6px;
+  position: absolute;
+  left: 218px;
+  top: 28px;
+}
+.header__4 {
+  flex-shrink: 0;
+  width: 156px;
+  height: 34px;
+  position: static;
+}
+.header___67 {
+  text-align: left;
+  font: 400 14px/148% "SF Pro Display", sans-serif;
+  position: absolute;
+  left: 438px;
+  top: calc(50% - 30px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.header-67-span {
+  color: var(--text, #122945);
+  font: 400 14px/148% "SF Pro Display", sans-serif;
+}
+.header-67-span2 {
+  color: var(--ui-red, #ea1a4f);
+  font: 400 14px/148% "SF Pro Display", sans-serif;
+}
+.header__bar5 {
+  background: #dee6f5;
+  border-radius: 12px;
+  width: 156px;
+  height: 6px;
+  position: absolute;
+  left: 438px;
+  top: 28px;
+}
+.header__bar6 {
+  background: var(--ui-red, #ea1a4f);
+  border-radius: 12px 0px 0px 12px;
+  width: 78px;
+  height: 6px;
+  position: absolute;
+  left: 438px;
+  top: 28px;
+}
+.header__vector {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1236px;
+  top: 26px;
+}
+.header__basic-search {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.header__5 {
+  color: var(--textheader, #899cb1);
+  text-align: right;
+  font: 400 15px/140% "SF Pro Display", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.header__keyboard-arrow-down-black-24-dp-1 {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.header__avatars {
+  padding: 0px 1px 0px 1px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 68px;
+  position: relative;
+}
+.header__avatar {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: static;
+}
+.header__ellipse {
+  background: #efefef;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.header__img {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1px;
+  top: 0px;
+}
+.header__keyboard-arrow-down-black-24-dp-12 {
+  flex-shrink: 0;
+  position: absolute;
+  left: 45px;
+  top: 9px;
+  overflow: visible;
+}

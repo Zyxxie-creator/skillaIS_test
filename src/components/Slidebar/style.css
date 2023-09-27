@@ -1,0 +1,238 @@
+.current {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lavender);
+  display: none;
+}
+.current1 {
+  top: 0;
+  right: 237px;
+  background-color: var(--ui-accent);
+  width: 3px;
+  height: 52px;
+  display: none;
+}
+.current1,
+.div,
+.new {
+  position: absolute;
+}
+.bar_text {
+  padding: 15px 22px 17px 48px;
+  line-height: 24px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 170px;
+}
+.new {
+  height: 15.38%;
+  width: 3.33%;
+  top: 42.31%;
+  right: 8.33%;
+  bottom: 42.31%;
+  left: 88.33%;
+  border-radius: 50%;
+  background-color: var(--color-gold-100);
+  box-shadow: 0 3px 8px rgba(237, 218, 1, 0.5);
+  display: none;
+}
+.icon-assessment-24px {
+  position: absolute;
+  height: 46.15%;
+  width: 10%;
+  top: 26.92%;
+  right: 85%;
+  bottom: 26.92%;
+  left: 5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.menu-item {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 240px;
+  height: 52px;
+}
+.current4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-lavender);
+}
+.current5,
+.new2 {
+  position: absolute;
+  top: 0;
+  right: 237px;
+  background-color: var(--ui-accent);
+  width: 3px;
+  height: 52px;
+}
+.new2 {
+  height: 15.38%;
+  width: 3.33%;
+  top: 42.31%;
+  right: 5%;
+  bottom: 42.31%;
+  left: 91.67%;
+  border-radius: 50%;
+  background-color: var(--color-gold-100);
+  box-shadow: 0 3px 8px rgba(237, 218, 1, 0.5);
+}
+.menu-item2 {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 240px;
+  height: 52px;
+  color: var(--color-white);
+}
+.list {
+  overflow: hidden;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-gray-200);
+}
+.new13 {
+  height: 15.38%;
+  width: 3.33%;
+  top: 42.31%;
+  right: 5%;
+  bottom: 42.31%;
+  left: 91.67%;
+  border-radius: 50%;
+  background-color: var(--ui-yellow);
+  box-shadow: 0 3px 8px rgba(237, 218, 1, 0.5);
+}
+.div20,
+.list1,
+.new13 {
+  position: absolute;
+}
+.list1 {
+  top: 80px;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-gray-200);
+}
+.div20 {
+  top: 12px;
+  left: 35px;
+  line-height: 148%;
+  font-weight: 500;
+}
+.vector-icon {
+  top: 12px;
+  left: 156px;
+  width: 20px;
+  height: 20px;
+}
+
+.button {
+  border-radius: var(--br-9xs);
+  background-color: var(--ui-accent);
+  width: 200px;
+  height: 44px;
+  font-size: var(--font-size-sm);
+}
+.div21 {
+  top: 13px;
+  left: 24px;
+  line-height: 148%;
+  font-weight: 500;
+}
+.div22 {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  left: 85px;
+  letter-spacing: 0;
+  line-height: 23.7px;
+  position: absolute;
+  white-space: nowrap;
+}
+.button1,
+.vector-icon1 {
+  width: 24px;
+  height: 24px;
+}
+.vector-icon1 {
+  margin-left: 17px;
+}
+.vector-icon2 {
+  left: 170px !important;
+  position: absolute !important;
+}
+.button1 {
+  margin-top: 64px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: var(--br-9xs);
+  background-color: var(--ui-accent1);
+  width: 200px;
+  height: 52px;
+}
+.logo-icon {
+  overflow: hidden;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+.alert-24-icon {
+  position: absolute;
+  top: 11px;
+  left: 150px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.buttonpaytext-and-icon-def {
+  margin-top: 32px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: var(--br-9xs);
+  background-color: var(--ui-accent1);
+  width: 200px;
+  height: 52px;
+}
+.mdi-keyboard-arrow-icon {
+  position: absolute;
+  top: 50px;
+  left: 256px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  display: none;
+}
+.sidebardefault {
+  position: absolute;
+  background-color: var(--color-gray-100);
+  width: 240px;
+  height: 379%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-sf-pro-display);
+}
+.slidebar_button {
+  width: 100%;
+  margin-left: 17px;
+}

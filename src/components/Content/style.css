@@ -1,0 +1,269 @@
+.calls {
+  display: grid;
+  margin-left: 360px;
+  margin-right: 120px;
+  max-width: 1440px;
+}
+.calls_head {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.date_pick {
+  display: inline-flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.calendar_time {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  gap: 8px;
+  color: #005ff8;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: var(--font-sf-pro-display);
+}
+.balance {
+  background-color: #ffffff;
+  border-radius: 48px;
+  height: 40px;
+  position: relative;
+  width: 145px;
+  align-items: center;
+  display: inline-flex;
+  padding: 12px 25px 12px 25px;
+  border: none;
+  justify-content: center;
+  margin: 5px 48px 0px 0px;
+}
+.balance_block {
+  font-family: var(--font-sf-pro-display);
+  color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  height: 21px;
+  white-space: nowrap;
+  margin: 0px 10px 0px 0px;
+}
+.balance_text {
+  color: #899cb1;
+}
+.balance_count {
+  color: #122945;
+  font-weight: 500;
+}
+.balance_plus {
+  margin-bottom: 5px;
+}
+.search {
+  width: 482px;
+  position: relative;
+}
+.search_bock {
+  height: 20px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+.search_text {
+  color: var(--textsecondary, #5e7793);
+  text-align: left;
+  font-family: var(--font-sf-pro-display);
+  font-size: 14px;
+}
+.filter {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 32px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.filter .view {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.filter .text-wrapper {
+  color: var(--text-secondary);
+  font-family: var(--font-sf-pro-display);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20.7px;
+  margin-top: -1px;
+  opacity: 0.87;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.filter .dropdown {
+  height: 21px;
+  position: relative;
+  width: 18px;
+}
+.calls_nav {
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #899cb1;
+}
+.table {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1440px;
+}
+.table_header {
+  height: 16px;
+  position: relative;
+  font-family: var(--font-sf-pro-display);
+  display: inline-flex;
+  color: #899cb1;
+  padding: 24px 40px 20px 40px;
+}
+.table_header .table_type {
+  color: var(--text-header);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+}
+.table_header .table_time {
+  color: var(--text-header);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+  margin-left: 30px;
+}
+.table_header .table_source {
+  color: var(--text-header);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+  margin-left: 48px;
+}
+.table_header .table_appraisal {
+  color: var(--text-header);
+  font-size: 14px;
+  font-weight: 400;
+  left: 850px;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+  margin-left: 60px;
+}
+.table_header .table_duration {
+  color: var(--text-header);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+  margin-left: 281px;
+}
+.table_header .table_call {
+  color: var(--text-header);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+  margin-left: 154px;
+}
+.table_header .table_employee {
+  color: var(--text-header);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+  margin-left: 414px;
+}
+.border {
+  margin: auto;
+  width: 1400px;
+  height: 0px;
+  border: 1px #eaf0fa solid;
+}
+.row {
+  width: 100%;
+  height: 65px;
+}
+.user {
+  display: inline-flex;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 100%;
+  font-family: var(--font-sf-pro-display);
+  font-size: 15px;
+  justify-content: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.row:hover {
+  background-color: #d4dff32b;
+}
+.call_icon {
+  margin-top: 4px;
+}
+.time_call {
+  color: #122945;
+  width: 38px;
+  margin-left: 30px;
+  margin-top: 8px;
+}
+.avatar {
+  margin-left: 45px;
+}
+.avatar_img {
+  border-radius: 20px;
+}
+.phone {
+  color: #122945;
+  margin-left: 96px;
+  width: 250px;
+}
+.phone_secondary {
+  color: #5e7793;
+  font-size: 14px;
+}
+.phone_icon {
+  margin-right: 6px;
+  width: 16px;
+  height: 16px;
+  display: none;
+}
+.source {
+  color: #5e7793;
+  margin-left: 80px;
+  width: 61px;
+  margin-top: 8px;
+}
+.appraisal {
+  color: #ea1a4f;
+  margin-left: 140px;
+  width: 150px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.duration {
+  color: #122945;
+  margin-left: 360px;
+  margin-top: 10px;
+}
